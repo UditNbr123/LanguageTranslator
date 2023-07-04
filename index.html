@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Language Translator</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome CDN Link for Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="icon" href="images/translate.ico">
+  <script src="https://kit.fontawesome.com/b05b3480c1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <h1 class="logo"><a href="#">LanguageTranslator</a></h1>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="http://127.0.0.1:5500/contact.html" class="btn">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="section" id="home">
+    <div class="box"></div>
+  <div class="container">
+    <div class="wrapper">
+      <div class="text-input">
+        <textarea class="from-text" placeholder="Enter text"></textarea>
+        <textarea class="to-text" placeholder="Translation" readonly disabled></textarea>
+      </div>
+      <ul class="controls">
+        <li class="row from">
+          <div class="icons">
+            <i id="from" class="fas fa-volume-up"></i>
+            <i id="from" class="fas fa-copy"></i>
+          </div>
+          <select>
+
+          </select>
+        </li>
+        <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+        <li class="row to">
+          <select>
+
+          </select>
+          <div class="icons">
+            <i id="to" class="fas fa-volume-up"></i>
+            <i id="to" class="fas fa-copy"></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <button>Translate Text</button>
+  </div>
+    <div class="box"></div>
+  </section>
+  <section class="section" id="about">
+    <div class="box2"></div>
+    <div class="about__content">
+      <div class="con1">
+        <h2>About</h2>
+      <p class="parah">Hi!! Everyone I am Udit Nambiar; a final year Electrical & Electronics Engineering student.<br>I'm extremely passionate about technology and consider myself a devoted enthusiast. I try to learn whatever I can. This project is my attempt at learning Web-Dev. <br>Introducing LanguageTranslator, a user-friendly language translation tool I built using HTML, CSS, and JavaScript. Powered by the MyMemory API, it supports multiple languages, facilitating seamless global communication. Challenges included asynchronous API integration, intuitive UI design, and handling complex grammatical structures. This web app overcomes language barriers, ensuring accurate and reliable translations. It serves as a valuable tool for users worldwide, eliminating linguistic obstacles and fostering meaningful connections.</p>
+      </div>
+      <img src="images/20210806_030648~2.jpg" class="image"alt="">
+      
+    </div>
+    <div class="links">
+
+    </div>
+  </section>
+  <div class="spp"></div>
+  <section class="footer">
+    <div class="social">
+      <div class="boxx"><a href="mailto:nambiarudit@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></div>
+      <div class="boxx"><a href="https://www.linkedin.com/in/udit-nambiar-9845aa202/"><i class="fa-brands fa-linkedin"></i></a></div>
+    </div>
+  </section>
+  <script src="js/languages.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
